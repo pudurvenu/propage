@@ -37,7 +37,7 @@
   <p>
   As humanity is evolving the consumption of energy is increased. Continue power supply is not possible everywhere. So that we require energy storage devices. The stored energy is used in the places where the supply of energy is not available. The stored energy need to be a monitor protected and easy to use. With rapidly evolving technology of the smart grid and electric vehicles (EVs), the battery has emerged as the most prominent energy storage device, attracting a significant amount of attention.
 
-  The battery is a fundamental component of electric vehicles, standalone & other portable devices, which represents a step forward towards sustainable mobility. As an electrochemical product, a battery acts differently under different operational and environmental conditions.
+  The battery is a fundamental component of electric vehicles, standalone & other portable devices, which represents a step forward towards sustainable mobility. As an electrochemical product, a battery acts differently under different operational and environmental conditions.<span id="dots">...</span><span id="more">
     <br><br>
   The uncertainty of a battery’s performance poses a challenge to the implementation of these functions. It is a critical component of many electronics and electrical devices. Due to their high efficiency and high energy density, lithium-ion batteries have been adopted for mobile electronic devices and electric vehicles. Battery have been increasingly used further for various applications, such as small mobility vehicles (electric motorcycles, golf carts, etc.), stationary batteries for HEMS ( High Energy Management System ), trucks/buses and industry machinery. The very recent problem of pandemic have laid a increased risk of power failure and power demand, which on the edge resulted to a shortage of power supply and resources, this problem has emerged a bigger threat to many researches, manufacturing & production units, education and many other essential services, to satisfy their needs. Therefore this project on battery technology is helpful in satisfying their needs, which is growing very quickly, developing cells structure with higher power and energy densities, it is equally important to improve the performance of the battery management system (BMS) to make the battery a safe, reliable, and cost-efficient solution, to supply energy needs under power failure and even during power supply with self-sustaining technology to cater any load variations and demands.
 <br><br>
@@ -61,11 +61,29 @@
 <br>
   <p1>Keywords</p1><br>
   Battery management system; battery (lithium-ion or any), Battery cell monitoring, protection, energy balancing, energy management, Temperature-Voltage Controlling, etc.
-
+</span></p>
+<button onclick="myFunction()" id="myBtn">Read more</button>
     </p>
 
   </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
   </body>
 </html>
