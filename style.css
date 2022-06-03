@@ -2,7 +2,7 @@
           src: local(knowledge-medium.woff.ttf) format('ttf');
         font-family: 'knowledge-medium';
 }
-h3{
+p4{
   font-family: 'knowledge-medium';
   font-size: 300px;
 }
@@ -17,7 +17,7 @@ p1{
 
 
 @media screen and (max-width: 480px) {
-  h3{
+  p4{
     font-size: 20px;
   }
 p{
